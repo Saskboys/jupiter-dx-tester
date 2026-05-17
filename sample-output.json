@@ -1,0 +1,101 @@
+{
+  "mode": "read_only_tokens_price_comparison",
+  "queries": [
+    "SOL",
+    "JUP",
+    "USDC"
+  ],
+  "results": [
+    {
+      "query": "SOL",
+      "found": true,
+      "token": {
+        "symbol": "SOL",
+        "name": "Wrapped SOL",
+        "id": "So11111111111111111111111111111111111111112",
+        "decimals": 9,
+        "verified": true,
+        "organicScore": 99.18079443238413
+      },
+      "price": {
+        "usdPrice": 86.65582489694818,
+        "liquidity": 725596713.3833283,
+        "priceChange24h": -2.5523078679467517,
+        "blockId": 420262854
+      },
+      "timings": [
+        {
+          "path": "/tokens/v2/search",
+          "elapsed_ms": 575.4
+        },
+        {
+          "path": "/price/v3",
+          "elapsed_ms": 164.5
+        }
+      ]
+    },
+    {
+      "query": "JUP",
+      "found": true,
+      "token": {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "id": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+        "decimals": 6,
+        "verified": true,
+        "organicScore": 94.75415724197022
+      },
+      "price": {
+        "usdPrice": 0.19934773665789376,
+        "liquidity": 3173195.889905657,
+        "priceChange24h": -5.359353361791559,
+        "blockId": 420262851
+      },
+      "timings": [
+        {
+          "path": "/tokens/v2/search",
+          "elapsed_ms": 267.2
+        },
+        {
+          "path": "/price/v3",
+          "elapsed_ms": 232.5
+        }
+      ]
+    },
+    {
+      "query": "USDC",
+      "found": true,
+      "token": {
+        "symbol": "USDC",
+        "name": "USD Coin",
+        "id": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "decimals": 6,
+        "verified": true,
+        "organicScore": 100
+      },
+      "price": {
+        "usdPrice": 0.9998387530237564,
+        "liquidity": 437726346.0159527,
+        "priceChange24h": -0.00039026311991916044,
+        "blockId": 420262857
+      },
+      "timings": [
+        {
+          "path": "/tokens/v2/search",
+          "elapsed_ms": 279.2
+        },
+        {
+          "path": "/price/v3",
+          "elapsed_ms": 248.8
+        }
+      ]
+    }
+  ],
+  "dx_notes": [
+    "x-api-key header worked for api.jup.ag Tokens and Price endpoints.",
+    "Read-only Price and Tokens APIs are safe for agent testing because they do not require wallet signing.",
+    "Multi-token comparison now captures basic endpoint latency for DX/reporting evidence.",
+    "Next DX step: document docs links, auth/header clarity, error messages, and AI-stack usefulness."
+  ],
+  "safety": "No trading, swaps, transaction building, wallet connection, signing, or funded actions."
+}

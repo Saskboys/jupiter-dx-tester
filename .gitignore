@@ -1,0 +1,13 @@
+# Local secrets and environment files
+.env
+*.env
+secrets/
+.hermes/
+
+# Python/runtime
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local scratch outputs
+/tmp/
