@@ -10,7 +10,7 @@ The project uses one Jupiter Developer Platform API key to combine the Tokens an
 - Searches Jupiter Tokens API for one or more token symbols/queries
 - Fetches Price API data for the top token result
 - Captures basic per-endpoint latency in milliseconds
-- Prints a JSON comparison report for tokens such as `SOL`, `JUP`, and `USDC`
+- Prints a JSON comparison report for tokens such as `SOL`, `JUP`, `USDC`, and `BONK`
 
 ## Safety
 
@@ -29,7 +29,7 @@ This demo is read-only. It does **not**:
 ```bash
 python3 jupiter_dx_tester.py SOL
 python3 jupiter_dx_tester.py JUP
-python3 jupiter_dx_tester.py SOL JUP USDC > sample-output.json
+python3 jupiter_dx_tester.py SOL JUP USDC BONK > sample-output.json
 ```
 
 Expected secret format:

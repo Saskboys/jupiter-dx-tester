@@ -3,7 +3,8 @@
   "queries": [
     "SOL",
     "JUP",
-    "USDC"
+    "USDC",
+    "BONK"
   ],
   "results": [
     {
@@ -15,22 +16,22 @@
         "id": "So11111111111111111111111111111111111111112",
         "decimals": 9,
         "verified": true,
-        "organicScore": 99.18079443238413
+        "organicScore": 99.12874915006395
       },
       "price": {
-        "usdPrice": 86.65582489694818,
-        "liquidity": 725596713.3833283,
-        "priceChange24h": -2.5523078679467517,
-        "blockId": 420262854
+        "usdPrice": 86.44648488790035,
+        "liquidity": 725317942.4137216,
+        "priceChange24h": -0.11075060306269774,
+        "blockId": 420369175
       },
       "timings": [
         {
           "path": "/tokens/v2/search",
-          "elapsed_ms": 575.4
+          "elapsed_ms": 784.9
         },
         {
           "path": "/price/v3",
-          "elapsed_ms": 164.5
+          "elapsed_ms": 165.4
         }
       ]
     },
@@ -43,22 +44,22 @@
         "id": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
         "decimals": 6,
         "verified": true,
-        "organicScore": 94.75415724197022
+        "organicScore": 95.69921383630933
       },
       "price": {
-        "usdPrice": 0.19934773665789376,
-        "liquidity": 3173195.889905657,
-        "priceChange24h": -5.359353361791559,
-        "blockId": 420262851
+        "usdPrice": 0.19861227434936699,
+        "liquidity": 3176826.939630876,
+        "priceChange24h": -1.5162617411817605,
+        "blockId": 420369143
       },
       "timings": [
         {
           "path": "/tokens/v2/search",
-          "elapsed_ms": 267.2
+          "elapsed_ms": 275.2
         },
         {
           "path": "/price/v3",
-          "elapsed_ms": 232.5
+          "elapsed_ms": 225.7
         }
       ]
     },
@@ -74,19 +75,47 @@
         "organicScore": 100
       },
       "price": {
-        "usdPrice": 0.9998387530237564,
-        "liquidity": 437726346.0159527,
-        "priceChange24h": -0.00039026311991916044,
-        "blockId": 420262857
+        "usdPrice": 0.9997934142308165,
+        "liquidity": 432816309.7662809,
+        "priceChange24h": -0.003866527267791604,
+        "blockId": 420369185
       },
       "timings": [
         {
           "path": "/tokens/v2/search",
-          "elapsed_ms": 279.2
+          "elapsed_ms": 258.5
         },
         {
           "path": "/price/v3",
-          "elapsed_ms": 248.8
+          "elapsed_ms": 249.1
+        }
+      ]
+    },
+    {
+      "query": "BONK",
+      "found": true,
+      "token": {
+        "symbol": "Bonk",
+        "name": "Bonk",
+        "id": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+        "decimals": 5,
+        "verified": true,
+        "organicScore": 87.06641508261353
+      },
+      "price": {
+        "usdPrice": 6.222885591914646e-06,
+        "liquidity": 3365649.798809051,
+        "priceChange24h": -1.1528408811676774,
+        "blockId": 420369176
+      },
+      "timings": [
+        {
+          "path": "/tokens/v2/search",
+          "elapsed_ms": 317.8
+        },
+        {
+          "path": "/price/v3",
+          "elapsed_ms": 236.1
         }
       ]
     }

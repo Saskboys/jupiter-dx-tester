@@ -8,12 +8,10 @@ The build intentionally starts with low-risk API surfaces so an AI agent can val
 
 ## Build status
 
-Validated locally on `2026-05-16 22:19:55 CST` with:
+Validated locally on `2026-05-17 10:05 CST` with:
 
 ```bash
-python3 jupiter_dx_tester.py SOL
-python3 jupiter_dx_tester.py JUP
-python3 jupiter_dx_tester.py SOL JUP USDC > sample-output.json
+python3 jupiter_dx_tester.py SOL JUP USDC BONK > sample-output.json
 ```
 
 The Jupiter secret file existed locally with `0600` permissions. No raw secret values were printed, committed, or written into this report.
@@ -36,7 +34,7 @@ x-api-key: <Jupiter Developer Platform API key>
 - Tokens API and Price API were safe for AI-agent testing because they are read-only and do not require wallet signing.
 - Token search returned useful metadata: symbol, name, mint ID, verification signal, organic score, and decimals.
 - Price API returned useful fields: USD price, liquidity, 24h price change, and block ID.
-- Multi-token comparison (`SOL JUP USDC`) worked in one run and produced `sample-output.json` with endpoint latency evidence.
+- Multi-token comparison (`SOL JUP USDC BONK`) worked in one run and produced `sample-output.json` with endpoint latency evidence.
 
 ## What the demo proves
 

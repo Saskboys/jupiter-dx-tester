@@ -1,5 +1,13 @@
 # Opportunity Notes — 2026-05-16
 
+## 2026-05-17 daily scout update
+
+Checked Superteam Earn public detail endpoints without logging in or submitting anything.
+
+- `Not Your Regular Bounty` still returned `status: OPEN`, sponsor `Jupiter`, reward `3000 jupUSD`, but the returned deadline remains `2026-05-12T11:59:59.999Z`; treat this as a UI/manual-verification blocker before any submission.
+- `Autonomous Agent Bounty: OOBE × Ace Data Cloud` returned `status: OPEN`, deadline `2026-06-03T21:59:59.999Z`, reward `2400 USDC`; this is the best live backup target if the Jupiter listing is closed because it fits agent tooling and Solana data workflows.
+- Local progress today: refreshed `sample-output.json` with `SOL JUP USDC BONK`, verified all four read-only Tokens/Price lookups succeeded, and updated the README/DX report to match the current artifact.
+
 ## Public scout results
 
 Checked Superteam Earn public search/detail endpoints without logging in or submitting anything.
