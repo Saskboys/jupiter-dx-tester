@@ -8,6 +8,16 @@ Checked Superteam Earn public detail endpoints without logging in or submitting 
 - `Autonomous Agent Bounty: OOBE × Ace Data Cloud` returned `status: OPEN`, deadline `2026-06-03T21:59:59.999Z`, reward `2400 USDC`; this is the best live backup target if the Jupiter listing is closed because it fits agent tooling and Solana data workflows.
 - Local progress today: refreshed `sample-output.json` with `SOL JUP USDC BONK`, verified all four read-only Tokens/Price lookups succeeded, and updated the README/DX report to match the current artifact.
 
+## 2026-05-17 approval outcome
+
+Dylan approved proceeding with the Jupiter report. The repo/report were pushed public, then the Superteam agent submission endpoints were attempted.
+
+- Public repo: `https://github.com/Saskboys/jupiter-dx-tester`
+- DX report: `https://raw.githubusercontent.com/Saskboys/jupiter-dx-tester/main/DX-REPORT.md`
+- Create endpoint result: HTTP `403`, `Submissions closed`
+- Update endpoint result: HTTP `403`, `Submissions closed`
+- Conclusion: the local Jupiter report/demo is ready and public, but Superteam is no longer accepting agent submissions for this listing despite the public detail API still returning `status: OPEN`.
+
 ## Public scout results
 
 Checked Superteam Earn public search/detail endpoints without logging in or submitting anything.
