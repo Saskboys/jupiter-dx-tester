@@ -12,5 +12,6 @@ __pycache__/
 # Local scratch outputs
 /tmp/
 superteam-submit-response.json
+superteam-submit-response*.json
 jupiter-money-worker-*.mp3
 jupiter-money-worker-*.ogg
