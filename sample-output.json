@@ -16,22 +16,22 @@
         "id": "So11111111111111111111111111111111111111112",
         "decimals": 9,
         "verified": true,
-        "organicScore": 99.12874915006395
+        "organicScore": 99.17567491113131
       },
       "price": {
-        "usdPrice": 86.44648488790035,
-        "liquidity": 725317942.4137216,
-        "priceChange24h": -0.11075060306269774,
-        "blockId": 420369175
+        "usdPrice": 84.13309865977011,
+        "liquidity": 715590908.7907234,
+        "priceChange24h": -2.6911978916292796,
+        "blockId": 420586049
       },
       "timings": [
         {
           "path": "/tokens/v2/search",
-          "elapsed_ms": 784.9
+          "elapsed_ms": 690.3
         },
         {
           "path": "/price/v3",
-          "elapsed_ms": 165.4
+          "elapsed_ms": 165.3
         }
       ]
     },
@@ -44,22 +44,22 @@
         "id": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
         "decimals": 6,
         "verified": true,
-        "organicScore": 95.69921383630933
+        "organicScore": 95.18099356320387
       },
       "price": {
-        "usdPrice": 0.19861227434936699,
-        "liquidity": 3176826.939630876,
-        "priceChange24h": -1.5162617411817605,
-        "blockId": 420369143
+        "usdPrice": 0.19320466011157153,
+        "liquidity": 3094151.836991446,
+        "priceChange24h": -2.722698914510814,
+        "blockId": 420586044
       },
       "timings": [
         {
           "path": "/tokens/v2/search",
-          "elapsed_ms": 275.2
+          "elapsed_ms": 270.9
         },
         {
           "path": "/price/v3",
-          "elapsed_ms": 225.7
+          "elapsed_ms": 224.2
         }
       ]
     },
@@ -75,19 +75,19 @@
         "organicScore": 100
       },
       "price": {
-        "usdPrice": 0.9997934142308165,
-        "liquidity": 432816309.7662809,
-        "priceChange24h": -0.003866527267791604,
-        "blockId": 420369185
+        "usdPrice": 0.9997528571330823,
+        "liquidity": 429629428.89354676,
+        "priceChange24h": -0.0040565477984677994,
+        "blockId": 420586055
       },
       "timings": [
         {
           "path": "/tokens/v2/search",
-          "elapsed_ms": 258.5
+          "elapsed_ms": 267.3
         },
         {
           "path": "/price/v3",
-          "elapsed_ms": 249.1
+          "elapsed_ms": 231.2
         }
       ]
     },
@@ -100,22 +100,22 @@
         "id": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
         "decimals": 5,
         "verified": true,
-        "organicScore": 87.06641508261353
+        "organicScore": 92.35275688807576
       },
       "price": {
-        "usdPrice": 6.222885591914646e-06,
-        "liquidity": 3365649.798809051,
-        "priceChange24h": -1.1528408811676774,
-        "blockId": 420369176
+        "usdPrice": 5.869399750515408e-06,
+        "liquidity": 3099078.521139133,
+        "priceChange24h": -5.683814728012141,
+        "blockId": 420586043
       },
       "timings": [
         {
           "path": "/tokens/v2/search",
-          "elapsed_ms": 317.8
+          "elapsed_ms": 310.9
         },
         {
           "path": "/price/v3",
-          "elapsed_ms": 236.1
+          "elapsed_ms": 254.4
         }
       ]
     }

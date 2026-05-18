@@ -8,13 +8,13 @@ The build intentionally starts with low-risk API surfaces so an AI agent can val
 
 ## Build status
 
-Validated locally on `2026-05-17 10:05 CST` with:
+Validated locally again on `2026-05-18 10:05 CST` with:
 
 ```bash
 python3 jupiter_dx_tester.py SOL JUP USDC BONK > sample-output.json
 ```
 
-The Jupiter secret file existed locally with `0600` permissions. No raw secret values were printed, committed, or written into this report.
+The Jupiter secret file existed locally with `0600` permissions and the file owner matched the current user. No raw secret values were printed, committed, or written into this report.
 
 Working endpoints:
 
@@ -34,7 +34,7 @@ x-api-key: <Jupiter Developer Platform API key>
 - Tokens API and Price API were safe for AI-agent testing because they are read-only and do not require wallet signing.
 - Token search returned useful metadata: symbol, name, mint ID, verification signal, organic score, and decimals.
 - Price API returned useful fields: USD price, liquidity, 24h price change, and block ID.
-- Multi-token comparison (`SOL JUP USDC BONK`) worked in one run and produced `sample-output.json` with endpoint latency evidence.
+- Multi-token comparison (`SOL JUP USDC BONK`) worked in one run and refreshed `sample-output.json` with endpoint latency evidence.
 
 ## What the demo proves
 
@@ -87,3 +87,9 @@ This demo does not trade, swap, sign transactions, connect a wallet, build trans
 - Add more token metrics and error-path examples.
 - Extend into a tiny dashboard that compares tokens and flags docs/API edge cases.
 - Add optional integration with Jupiter AI Stack / CLI once the safe agent flow is documented.
+
+## 2026-05-18 scout note
+
+The original Jupiter Superteam listing still returned `status: OPEN` from the public detail API, but the deadline remains `2026-05-12T11:59:59.999Z` and prior agent submission attempts returned `403 Submissions closed`. Treat that opportunity as locally complete unless Dylan finds a manual UI path or a Jupiter contact explicitly reopens submissions.
+
+Best live adjacent target found today: `Autonomous Agent Bounty: OOBE × Ace Data Cloud`, reward `2400 USDC`, deadline `2026-06-03T21:59:59.999Z`. It is not Jupiter-specific, but it fits the same agent-safe pattern: build an autonomous agent/demo around public Solana data, keep wallet/signing actions out of scope, and submit a repo/report only after explicit approval.

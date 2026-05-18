@@ -1,5 +1,18 @@
 # Opportunity Notes — 2026-05-16
 
+## 2026-05-18 daily scout update
+
+Checked Regina time (`2026-05-18 10:05 CST`), refreshed the local read-only Jupiter smoke output, and re-scouted Superteam public search/detail APIs without logging in or submitting anything.
+
+- Jupiter `Not Your Regular Bounty` still returns `status: OPEN`, sponsor `Jupiter`, reward `3000 jupUSD`, but the deadline remains `2026-05-12T11:59:59.999Z` and the prior create/update submission attempts returned HTTP `403` with `Submissions closed`. Current posture: local Jupiter demo/report is complete and public, but the listing is blocked unless manually reopened.
+- Best live adjacent opportunity: `Autonomous Agent Bounty: OOBE × Ace Data Cloud` (`autonomous-agent-bounty-oobe-ace-data-cloud`), sponsor `OOBE Protocol`, reward `2400 USDC`, deadline `2026-06-03T21:59:59.999Z`. Fit: autonomous-agent tooling plus Solana/public-data workflows; a safe repo/report could be adapted from this Jupiter DX tester pattern.
+- Other API/search hits (`LPAgent.io | API integrate Sidetrack`, `Dune Analytics | Frontier Data Sidetrack`) appear to have the same `2026-05-12T11:59:59.999Z` deadline as the closed Frontier/Jupiter path, so they are lower priority unless the UI contradicts the API.
+- Local progress today: refreshed `sample-output.json` with `SOL JUP USDC BONK`, verified all four read-only Tokens/Price lookups succeeded, and updated `DX-REPORT.md` with the current validation/scout note.
+
+### Highest-ROI next move from 2026-05-18
+
+If Dylan wants the next money attempt without waiting on the closed Jupiter listing, approve a narrow local pivot plan only: adapt this repo into an OOBE/Ace Data Cloud autonomous-agent demo proposal and prepare a submission packet locally. External submission/publishing still needs separate explicit approval after review.
+
 ## 2026-05-17 daily scout update
 
 Checked Superteam Earn public detail endpoints without logging in or submitting anything.
